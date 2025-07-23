@@ -35,4 +35,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           server-dir: /public_html/ablab/
+          local-dir: ./
           dangerous-clean-slate: false
